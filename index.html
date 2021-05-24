@@ -1,44 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" dir="ltr">
   <head>
-      <meta charset="utf-8">
-      <title>ALIEN DEVELOPER Home</title>
+    <!--Meta is the Meta data of the website and the developer of the website almost like a signature-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Jibri Tolen">
+    <!--Title Shows what the webstie tab will say-->
+    <title>Jibri Tolen | Welcome</title>
+    <!--Connects the HTML file to the CSS stylesheet-->
+    <link rel="stylesheet" href="./css/style.css">
   </head>
-
   <body>
-
-    <head>
-      <meta charset="utf-8">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-
     <header>
-
-      <div class="main">
-
+      <!--Continer is the reason stuff does not bunch up when page is resized-->
+      <div class="container">
+        <!--id = Branding is the variable I will use to edit the way it looks at the top of the page or I can enter a Logo here-->
+        <div id="branding">
+          <!--What will show as the brand-->
+          <h1><span class="highlight">Jibri</span> Software Portfolio</h1>
+        </div>
+        <!--This is the navagation tag to show different pages on the site-->
+        <nav>
+          <!--ul = unstructured List-->
           <ul>
-            <li class="active"><a href="#">Home</a></li>
-      <!--  <li><a href="#">Gallery</a></li>  Here I will add Samples of applications I have already done-->
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <!--li = List of different webpages-->
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="./html/about.html">About</a></li>
+            <li><a href="./html/services.html">Services</a></li>
           </ul>
+        </nav>
       </div>
     </header>
-
-    <div class="container">
-
-      <div class="title">
-        <h1>ALIEN DEVELOPERS</h1>
+    <!-- The Showcase Background Picture for the center piece of the page-->
+    <section id="showcase">
+      <div class="container">
+        <h1>Remote Software Engineer</h1>
+        <p>You must fail before you can succeed! </p>
       </div>
-    </div>
-
-      <div class="button">
-        <a href="#" class="btn">WATCH VIDEO</a>
-        <a href="#" class="btn">LEARN MORE</a>
+    </section>
+    <!--This Section is the Newsletter Section the Center Grey Area of the Website-->
+    <section id="newsletter">
+      <div class="container">
+        <h1>Technology Stack<h1>
+        <!--  <form>
+            <input type="email" placeholder="Enter Email...">
+            <button type="submit" class="button_1">Subscribe</button>
+          </form> -->
       </div>
+    </section>
+    <!--Boxes represent the icons that shows the Tech Stack that I use-->
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <img src="./images/java.svg">
+          <h3>Java</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/csharp.svg">
+          <h3>C# Programming</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/python.svg">
+          <h3>Python</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/css3.svg">
+          <h3>CSS3</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/html5.svg">
+          <h3>HTML5</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/cpp.svg">
+          <h3>C++</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/c.svg">
+          <h3>C</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/mysql.svg">
+          <h3>MySQL</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/sql.svg">
+          <h3>Oracle SQL 12c</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/bash.svg">
+          <h3>BASH Scripting</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/powershell.svg">
+          <h3>Powershell Scripting</h3>
+          <p>Some information about something</p>
+        </div>
 
+        <div class="box">
+          <img src="./images/mint.svg">
+          <h3>Linux Mint</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/ubuntu.svg">
+          <h3>Ubuntu Server</h3>
+          <p>Some information about something</p>
+        </div>
+        <div class="box">
+          <img src="./images/redhat.svg">
+          <h3>RedHat</h3>
+          <p>Some information about something</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Alien Developer web Design, Copyright &copy; 2021</p>
+    </footer>
   </body>
-
-
 </html>
