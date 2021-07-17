@@ -1,3 +1,6 @@
 # Portfolio-Website
 
-This is the source code for my static website. This is also my first time doing front-end development. The site will ultimatly provide recuiters with short videos and pictures of personal projects that I have completed to increase my development in my personal time. In addition, this site will be used to provide my customers with a central place to not only see some of the work that I have done on my own time but see some of the clients I have worked with to provide them with more insight of my skills as a developer.
+This is the source code for my static website. This is also my first time doing front-end development. The soul purpose of this repo is to give recuiters and clients some informaiton regarding my development thus far until my responsive website is complete. To see current progress of my responsive site please review the link below.
+
+This will become my default website portfolio. This project is still a work in progress.
+Please refer to my updated site : https://github.com/AlienDev1/MySite 
